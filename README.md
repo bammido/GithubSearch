@@ -20,7 +20,7 @@ Justifique porque você optou pela tecnologia X e não a Y?
 
 * Quanto ao framework escolhi o React por ter ser o meu principal, em um projeto de curto tempo preferi usar o que eu tenho mais familiaridade.
 *  A lib de requisição do próprio github que facilita bastante por ser bem simples. E o styled-components que deixa bem fácil estilizar 
-.
+
 **Desafios e problemas**
 
 Conte um pouco sobre os desafios e problemas que você enfrentou e como você resolveu.
