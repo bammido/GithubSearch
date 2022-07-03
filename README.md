@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+disclaimer: esse repositório foi criado com a finalidade de mostrar o meu projeto, no qual foi feito em outro repositório que não posso compartilhar e nem é possível 'forquear'. Por isso possui somente uma branch e um commit. Eu trabalho com versionamento usando boas praticas de commit e padronização de commit, peço que releve essa questão por favor.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[link](https://lying-meal.surge.sh)
 
-## Available Scripts
+# GithubSearch
+Deseja buscar por repositórios no github? Acredito que esta ferramenta possa auxiliar! 
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/65303066/177057411-0286e05a-0a0b-40cf-857f-362499affa17.png)
 
-### `npm start`
+**Framework, linguagem e ferramentas**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Descreva ferramentas e bibliotecas (libraries, framework, tools etc) você usou.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Optei por usar o ReactJS como framework
+* Libs: styled-components (estilização), @octokit/core (requisições do github)
 
-### `npm test`
+**Técnologias X e Y**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Justifique porque você optou pela tecnologia X e não a Y?
 
-### `npm run build`
+* Quanto ao framework escolhi o React por ter ser o meu principal, em um projeto de curto tempo preferi usar o que eu tenho mais familiaridade.
+*  A lib de requisição do próprio github que facilita bastante por ser bem simples. E o styled-components que deixa bem fácil estilizar 
+.
+**Desafios e problemas**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Conte um pouco sobre os desafios e problemas que você enfrentou e como você resolveu.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Tive alguns desafios no começo, pois eu tentei fazer um componente de pesquisa "universal" (ex: além de servir para pesquisar os respositórios, faria uso de todas as pesquisa disponíveis da api do github e poderia ser usado em outra api de maneira mais simples) o que me tomou um tempo pensando. Com isso vi que talvez até conseguisse fazer, mas levaria muito tempo (já que é algo que eu nunca tentei, meio que estaria andando no escuro), então simplifiquei as coisas e me atentei somente ao que pedia o desafio. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Melhorias e próximas implementações**
 
-### `npm run eject`
+O que você entende que pode ser melhorado e como isso pode ser feito?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Como disse na resposta anterior um componente de busca "universal" seria uma ótima melhoria. 
+* Abstrair algumas funções e componentes talvez, eu foquei em fazer o desafio a tempo (obviamente da melhor maneira possível), mas acho que dá para melhorar nesse aspecto.
+* Aplicar testes, ainda não tenho experiência nisso inclusive é meu próximo ponto de estudo nos meus projetos pessoais   
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
